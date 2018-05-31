@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM arm32v6/alpine
 
 # Confirm on your own that version/hash is correct
 ENV MONERO_VERSION 0.12.0.0
